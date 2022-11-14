@@ -43,7 +43,6 @@ pipeline {
             } 
          }
        }
-     }
    }
     stage('Package') {
       parallel {
@@ -70,4 +69,4 @@ pipeline {
       }
     }
   }
-
+}
